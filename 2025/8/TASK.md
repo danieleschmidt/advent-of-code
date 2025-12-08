@@ -1,7 +1,7 @@
-Advent of Code[About][Events][Shop][Settings][Log Out]Daniel Schmidt 6*
-  0.0.0.0:2025[Calendar][AoC++][Sponsors][Leaderboards][Stats]
+Advent of Code[About][Events][Shop][Settings][Log Out]Daniel Schmidt 11*
+   <y>2025</y>[Calendar][AoC++][Sponsors][Leaderboards][Stats]
 Our sponsors help make Advent of Code possible:
-Honeycomb - The observability platform that helps teams solve problems they couldn't before, with unified telemetry and fast, powerful querying.
+Cloudsmith - Cloud-native artifact management that handles enterprise security and scale. Artifacts shouldn't slow you down. We run the platform that locks down and distributes your software supply chain, no matter the shape or complexity.
 --- Day 8: Playground ---
 Equipped with a new understanding of teleporter maintenance, you confidently step onto the repaired teleporter pad.
 
@@ -53,9 +53,20 @@ After making the ten shortest connections, there are 11 circuits: one circuit wh
 
 Your list contains many junction boxes; connect together the 1000 pairs of junction boxes which are closest together. Afterward, what do you get if you multiply together the sizes of the three largest circuits?
 
-To begin, get your puzzle input.
+Your puzzle answer was 50568.
+
+The first half of this puzzle is complete! It provides one gold star: *
+
+--- Part Two ---
+The Elves were right; they definitely don't have enough extension cables. You'll need to keep connecting junction boxes together until they're all in one large circuit.
+
+Continuing the above example, the first connection which causes all of the junction boxes to form a single circuit is between the junction boxes at 216,146,977 and 117,168,530. The Elves need to know how far those junction boxes are from the wall so they can pick the right extension cable; multiplying the X coordinates of those two junction boxes (216 and 117) produces 25272.
+
+Continue connecting the closest unconnected pairs of junction boxes together until they're all in the same circuit. What do you get if you multiply together the X coordinates of the last two junction boxes you need to connect?
 
 Answer: 
  
+
+Although it hasn't changed, you can still get your puzzle input.
 
 You can also [Share] this puzzle.

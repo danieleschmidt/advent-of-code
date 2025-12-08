@@ -1,7 +1,7 @@
-Advent of Code[About][Events][Shop][Settings][Log Out]Daniel Schmidt 6*
-          2025[Calendar][AoC++][Sponsors][Leaderboards][Stats]
+Advent of Code[About][Events][Shop][Settings][Log Out]Daniel Schmidt 9*
+      /*2025*/[Calendar][AoC++][Sponsors][Leaderboards][Stats]
 Our sponsors help make Advent of Code possible:
-Da Vinci - Think Santa's workshop, but the elves build low latency code and fine tune algorithms. Curious, collaborative, and full of spirit. If tough problems feel like a holiday treat, you're our kind of developer.
+CodeRabbit - Cut Code Review Time and Bugs in Half
 --- Day 6: Trash Compactor ---
 After helping the Elves in the kitchen, you were taking a break and helping them re-enact a movie scene when you over-enthusiastically jumped into the garbage chute!
 
@@ -31,9 +31,34 @@ Of course, the actual worksheet is much wider. You'll need to make sure to unrol
 
 Solve the problems on the math worksheet. What is the grand total found by adding together all of the answers to the individual problems?
 
-To begin, get your puzzle input.
+Your puzzle answer was 4405895212738.
+
+The first half of this puzzle is complete! It provides one gold star: *
+
+--- Part Two ---
+The big cephalopods come back to check on how things are going. When they see that your grand total doesn't match the one expected by the worksheet, they realize they forgot to explain how to read cephalopod math.
+
+Cephalopod math is written right-to-left in columns. Each number is given in its own column, with the most significant digit at the top and the least significant digit at the bottom. (Problems are still separated with a column consisting only of spaces, and the symbol at the bottom of the problem is still the operator to use.)
+
+Here's the example worksheet again:
+
+123 328  51 64 
+ 45 64  387 23 
+  6 98  215 314
+*   +   *   +  
+Reading the problems right-to-left one column at a time, the problems are now quite different:
+
+The rightmost problem is 4 + 431 + 623 = 1058
+The second problem from the right is 175 * 581 * 32 = 3253600
+The third problem from the right is 8 + 248 + 369 = 625
+Finally, the leftmost problem is 356 * 24 * 1 = 8544
+Now, the grand total is 1058 + 3253600 + 625 + 8544 = 3263827.
+
+Solve the problems on the math worksheet again. What is the grand total found by adding together all of the answers to the individual problems?
 
 Answer: 
  
+
+Although it hasn't changed, you can still get your puzzle input.
 
 You can also [Share] this puzzle.
