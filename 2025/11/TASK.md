@@ -1,3 +1,7 @@
+Advent of Code[About][Events][Shop][Settings][Log Out]Daniel Schmidt 19*
+   <y>2025</y>[Calendar][AoC++][Sponsors][Leaderboards][Stats]
+Our sponsors help make Advent of Code possible:
+Jane Street - We're a research-driven trading firm where curious people work together to solve the puzzle of global markets, with offices in NYC, London, Hong Kong, and Singapore. Check out our new JS Advent of FPGA Challenge!
 --- Day 11: Reactor ---
 You hear some loud beeping coming from a hatch in the floor of the factory, so you decide to check it out. Inside, you find several large electrical conduits and a ladder.
 
@@ -36,9 +40,47 @@ In total, there are 5 different paths leading from you to out.
 
 How many different paths lead from you to out?
 
-To begin, get your puzzle input.
+Your puzzle answer was 753.
+
+The first half of this puzzle is complete! It provides one gold star: *
+
+--- Part Two ---
+Thanks in part to your analysis, the Elves have figured out a little bit about the issue. They now know that the problematic data path passes through both dac (a digital-to-analog converter) and fft (a device which performs a fast Fourier transform).
+
+They're still not sure which specific path is the problem, and so they now need you to find every path from svr (the server rack) to out. However, the paths you find must all also visit both dac and fft (in any order).
+
+For example:
+
+svr: aaa bbb
+aaa: fft
+fft: ccc
+bbb: tty
+tty: ccc
+ccc: ddd eee
+ddd: hub
+hub: fff
+eee: dac
+dac: fff
+fff: ggg hhh
+ggg: out
+hhh: out
+This new list of devices contains many paths from svr to out:
+
+svr,aaa,fft,ccc,ddd,hub,fff,ggg,out
+svr,aaa,fft,ccc,ddd,hub,fff,hhh,out
+svr,aaa,fft,ccc,eee,dac,fff,ggg,out
+svr,aaa,fft,ccc,eee,dac,fff,hhh,out
+svr,bbb,tty,ccc,ddd,hub,fff,ggg,out
+svr,bbb,tty,ccc,ddd,hub,fff,hhh,out
+svr,bbb,tty,ccc,eee,dac,fff,ggg,out
+svr,bbb,tty,ccc,eee,dac,fff,hhh,out
+However, only 2 paths from svr to out visit both dac and fft.
+
+Find all of the paths that lead from svr to out. How many of those paths visit both dac and fft?
 
 Answer: 
  
+
+Although it hasn't changed, you can still get your puzzle input.
 
 You can also [Share] this puzzle.
