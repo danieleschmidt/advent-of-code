@@ -1,3 +1,7 @@
+Advent of Code[About][Events][Shop][Settings][Log Out]Daniel Schmidt 20*
+  0.0.0.0:2025[Calendar][AoC++][Sponsors][Leaderboards][Stats]
+Our sponsors help make Advent of Code possible:
+Jane Street - We're a research-driven trading firm where curious people work together to solve the puzzle of global markets, with offices in NYC, London, Hong Kong, and Singapore. Check out our new JS Advent of FPGA Challenge!
 --- Day 12: Christmas Tree Farm ---
 You're almost out of time, but there can't be much left to decorate. Although there are no stairs, elevators, escalators, tunnels, chutes, teleporters, firepoles, or conduits here that would take you deeper into the North Pole base, there is a ventilation duct. You jump in.
 
@@ -82,9 +86,21 @@ So, in this example, 2 regions can fit all of their listed presents.
 
 Consider the regions beneath each tree and the presents the Elves would like to fit into each of them. How many of the regions can fit all of the presents listed?
 
-To begin, get your puzzle input.
+Your puzzle answer was 433.
 
-Answer: 
- 
+The first half of this puzzle is complete! It provides one gold star: *
 
-You can also [Share] this puzzle.
+--- Part Two ---
+The Elves thank you profusely for the help and start rearranging the oddly-shaped presents. As you look up, you notice that a lot more Elves have arrived here at the Christmas tree farm.
+
+In fact, many of these new arrivals look familiar: they're the Elves you helped while decorating the North Pole base. Right on schedule, each group seems to have brought a star to put atop one of the Christmas trees!
+
+Before any of them can find a ladder, a particularly large Christmas tree suddenly flashes brightly when a large star magically appears above it! As your eyes readjust, you think you notice a portly man with a white beard disappear into the crowd.
+
+You go look for a ladder; only 23 stars to go.
+
+You don't have enough stars to finish decorating the North Pole, though. You need 3 more.
+
+Although it hasn't changed, you can still get your puzzle input.
+
+You can [Share] this puzzle.
